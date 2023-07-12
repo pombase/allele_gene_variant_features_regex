@@ -54,11 +54,12 @@ cases_dict['regex_deletion'] = ['ase1D']
 cases_dict['regex_partial_deletion_kept'] = ['ase110-200','ase1(10-200300-400)', 'ase1(10-400-10)']
 cases_dict['regex_partial_deletion_removed'] = ['ase\u0394110-200','ase1\u0394(10-200300-400)']
 cases_dict['regex_delins'] = ['ase1-P114-PVPAL', 'ase1-P114A,Q117A,', 'ase1-,P114A,Q117A', 'ase1-P114AQ117A']
-cases_dict['regex_delins_and_partial_deletion'] = ['ase1(10-200)P224A,Q337A,L400*','ase1-,P224A,Q337A,L400*']
+cases_dict['regex_delins_and_partial_deletion'] = ['ase1(10-200)P224A,Q337A,L400*','ase1-,P224A,Q337A,L400*', 'ase1(10-200)-P224AQ337A,L400*']
 cases_dict['regex_CTD'] = [ 'ase1-CTD-(r1-r12)',
                             'ase1-CTD-Y1F(r1-r29-r2)',
                             'ase1-S2A,N494D-CTD-Y1FS5A(r11-r29),\u0394(r11-r29)',
-                            'ase1-CTD-S5A(r1-r12)\u0394(r13-r29)']
+                            'ase1-CTD-S5A(r1-r12)\u0394(r13-r29)',
+                            'ase1-CTD-']
 
 # Switch case on the keys of regex_dict
 for key in cases_dict:
